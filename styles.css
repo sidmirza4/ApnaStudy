@@ -233,6 +233,10 @@ main {
 }
 
 @media (max-width: 500px) {
+    .nav-item {
+        padding: 0;
+    }
+
     .nav-item.nav-search {
         display: none;
     }
