@@ -26,6 +26,31 @@ button:active {
     border: none;
     outline: none;
 }
+
+/* chat button */
+.chat {
+    position: fixed;
+    right: -20px;
+    top: 45vh;
+    transform: rotateZ(-90deg);
+    height: 2rem;
+    background-color: var(--pri-color);
+    width: 4rem;
+    border-radius: 20px 20px 0 0;
+    overflow-x: hidden;
+    padding: 0.5rem;
+}
+
+.chat button {
+    background-color: transparent;
+}
+
+.chat-text {
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
 .fas {
     margin-right: 2px;
 }
