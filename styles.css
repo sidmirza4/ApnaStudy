@@ -169,6 +169,7 @@ main {
 }
 
 .tabs {
+    z-index: 10;
     display: flex;
     position: fixed;
     right: 0;
